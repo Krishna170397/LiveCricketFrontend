@@ -13,7 +13,7 @@ export class ApiCallService {
 
   }
   getLiveMatches(){
-    return this._httpClient.get(`${environment.apiUrl}/match.live`)
+    return this._httpClient.get(`${environment.apiUrl}/match/live`)
 
   }
   getPointTable(){
